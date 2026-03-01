@@ -10,6 +10,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
+  - **QA column owner:** QA Lead / Test Engineer — items here are undergoing functional and acceptance testing.
+  - **Done column:** item meets all gates in the [Definition of Done](./octoacme-definition-of-done.md).
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
@@ -17,11 +19,12 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
-- Unit tests for new logic
-- Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Unit tests for new logic (owner: Developer)
+- Integration tests where applicable (owner: Developer / QA Lead)
+- End-to-end smoke tests for critical flows before release (owner: QA Lead / Test Engineer)
+- Security scanning in CI (owner: DevOps / Platform Engineer, in partnership with Security / AppSec Representative)
+- Manual QA for feature acceptance when needed (owner: QA Lead / Test Engineer)
+- All items must satisfy the [Definition of Done](./octoacme-definition-of-done.md) before moving to Done
 
 ## Reporting & Metrics
 - Track velocity and burndown
