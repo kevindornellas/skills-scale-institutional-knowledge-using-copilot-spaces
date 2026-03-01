@@ -14,6 +14,8 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Release notes drafted
 - Rollback / mitigation plan documented
 - Smoke tests prepared
+- Release Readiness Checklist completed and signed off — see [Release Readiness Checklist](./octoacme-release-readiness-checklist.md)
+  - **Go/no-go owners**: Release Manager (final decision), QA Lead, and DevOps/Platform Engineer
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)

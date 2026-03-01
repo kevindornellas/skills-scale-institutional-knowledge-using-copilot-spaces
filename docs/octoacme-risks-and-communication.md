@@ -20,7 +20,8 @@ Maintain a simple table with:
 - Monitor: review at weekly syncs and update status
 
 ## Stakeholder Communication
-- Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
+- Identify stakeholder groups and communication needs — use the [Communication Plan Template](./octoacme-communication-plan-template.md)
+- Communication plan owner: **Project Manager**; maintained and updated throughout the project
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
 
@@ -39,4 +40,6 @@ Incident Communication
 
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
+- Communication owner at each level: **Project Manager** (internal escalation), **Release Manager** (release-related escalation)
 - For security incidents, follow the security incident runbook and notify Security on-call
+- See [Communication Plan Template](./octoacme-communication-plan-template.md) for the full escalation framework

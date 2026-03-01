@@ -10,6 +10,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
+  - **QA column owner**: QA Lead is responsible for reviewing items in QA and moving them to Done once the [Definition of Done](./octoacme-definition-of-done.md) is satisfied.
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
@@ -38,3 +39,4 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Definition of Done visible to the full team (see [Definition of Done](./octoacme-definition-of-done.md))

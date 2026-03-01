@@ -18,8 +18,9 @@ After each sprint, release, or important milestone. Also after incidents.
 - Prioritize 2–3 top action items to avoid overload
 
 ## Tracking Improvements
-- Add action items to the project backlog or issues with clear owners and timelines
+- Add action items to the project backlog or issues with clear owners and timelines — **action item owners are assigned during the retrospective by the Scrum Master / Project Manager**
 - Review outstanding actions in the weekly PM sync
+- Documentation improvements are owned by the **Technical Writer** in partnership with the relevant Developer or Product Manager
 
 ## Example Action Item Template
 - Title:
